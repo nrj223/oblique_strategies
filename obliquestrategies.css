@@ -19,12 +19,11 @@ h1 {
     grid-auto-flow: row;
     text-align: center;}
 
+.city{ 
+    object-fit: fill;
+}
 
 .box1{ 
-   grid-column-start: 1;
-   grid-column-end: 3;
-   grid-row-start: 1;
-   grid-row-end: 1;
     font-size: 10vw;
         position:absolute;
         top: 20%;
@@ -32,7 +31,11 @@ h1 {
         transform: translate(-50%, -50%);
         letter-spacing: 3vw;
         color: white;
-        font-weight:550;}
+        font-weight:550;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;}
 
 
 .box2{ 
