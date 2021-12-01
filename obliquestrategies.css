@@ -12,9 +12,9 @@ h1 {
 
 .container1 {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100%;
     gap: 0px 0px;
     grid-auto-flow: row;
     text-align: center;}
@@ -26,7 +26,7 @@ h1 {
    grid-row-start: 1;
    grid-row-end: 1;
     font-size: 10vw;
-        position:fixed;
+        position:absolute;
         top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
